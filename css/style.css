@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+/* HEADER*/
+
+.contenedor{
+    height: 108vh;
+    width: 100%;
+    background-image: url(/img/header-banner.png);
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    padding-left: 2%;
+    padding-right: 3%;
+}
+
+/*NAVBAR*/
+
+.navbar{
+    height: 24%;
+    display: flex;
+    align-items: center;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 89px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+}
+
+nav ul li a:hover{
+    color: orangered;
+    box-shadow: .1s;
+}
+
+/*LOGO DUV*/
+
+.logo{
+    width: 80px;
+    cursor: pointer;
+}
+
+
+/*SUBTITULO LOREM IPSUM*/
+
+.contenedor_texto_imagen{
+    width: 100%;
+    height: 240px;
+    padding: 50px 80px;
+    position: relative;
+    letter-spacing: 1px;
+}
+
+.texto_lorem p{
+    position: absolute;
+    font-size: 25px;
+    text-align: left;
+}
+
+.texto_imagen{
+    position: absolute;
+    right: 0;
+    top: 0;
+    right: 260px;
+    width: 8%;
+
+
+}
+
+/*LOGO IMAGEN SEO*/
+
+.seo_logo img{
+    width: 100%;
+}
+
+/*TEXTO LOREM IPSUM CON LOS STICKERS */
+
+.texto_ipsum{
+    color: #fff;
+    border-radius: 5px;
+    background-color: orangered;
+    width: 18%;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+p{
+    text-align: center;
+    font-size: larger;
+}
+
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.image_container{
+    display: flex;
+    height: 240px;
+    justify-content: center;
+    width: 200px;
+    margin-left: 28%;
+}
+.image_container img{
+    width: 72%;
+}
+
+/* TEXTO NOTICIA CON HR*/
+
+.texto_noticia {
+    margin-top: 35px;
+    width: 100%;
+    color: orangered;
+    display: flex;
+    position: relative;
+}
+
+.texto_noticia h1{
+    width: 30%;
+    margin-left: 40px;
+}
+
+.texto_noticia hr{
+    border: 1px solid orangered;
+    width: 83%;
+    position: absolute;
+    right: 40px;
+    top: 50%;
+}
+
+/*FOOTER*/
+
+.pie-pagina{
+    width: 100%;
+    background-color: orangered;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 150px;
+}
+.pie-pagina .grupo1{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: #fff;
+    height: 100%;
+}
+
+.box-1 img{
+    width: 90px;
+}
+
+.box-1{
+    margin: auto;
+}
+
+.box-2{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 30px;
+}
+
+.box-3{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 30px;
+    margin-top: 17px;
+    font-size: smaller;
+}
+
+.box-4{
+    margin-top: auto;
+    margin-bottom: auto;
+    display: block;
+    margin-top: 25px;
+    font-size: smaller;
+    margin-left: 40px;
+}
+.numero1{
+    margin-right: 45px;
+}
+.numero3{
+    margin-right: 16px;
+}
+.numero4{
+    margin-left: 115px;
+}
+.numero5{
+    margin-left: 25px;
+}
+.numero6{
+    margin-right: 15px;
+}
+
+
+/*ESTILO DE LA API CONSUMIDA*/
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: justify;
+    padding: 25px;
+    gap: 25px;
+    font-size: medium;
+}
+main img{
+    width: 100%;
+    height: 247px;
+    margin-bottom: 10px;
+}
